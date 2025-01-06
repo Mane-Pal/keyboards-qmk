@@ -65,7 +65,7 @@ cmake-build-debug
 CMakeLists.txt
 *.pdf
 
-# Let these ones be user specific, since we have so many different configurations
+# User-specific configurations
 *.code-workspace
 .stfolder
 .tags
@@ -120,3 +120,7 @@ compile_commands.json
 via*.json
 /keyboards/**/keymaps/via/*
 /keyboards/**/keymaps/vial/*
+
+# Exclude all keyboards except bastardkb
+/keyboards/*
+!/keyboards/bastardkb/
